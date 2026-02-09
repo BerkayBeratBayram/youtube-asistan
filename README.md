@@ -2,7 +2,7 @@
 
 Ben bu projede bir YouTube videosunun transcriptini alip parcalayarak ChromaDB'ye kaydeden ve sonra Ollama ile soru-cevap yapan bir asistan kurdum. Tum is akisi notebook icinde, hucreleri sirasiyla calistirarak ilerliyorum.
 
-## Kullandiklarim
+## Kullandıklarım
 
 - youtube_transcript_api: YouTube altyazisini cekmek icin
 - chromadb: vektor veritabani
@@ -19,7 +19,7 @@ venv\Scripts\Activate.ps1
 pip install youtube-transcript-api chromadb sentence-transformers langchain-text-splitters ollama
 ```
 
-## Calistirma
+## Çalıştırma
 
 1. Jupyter ile youtube_asistan.ipynb dosyasini aciyorum.
 2. Hucreleri yukaridan asagi dogru tek tek calistiriyorum.
